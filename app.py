@@ -12,8 +12,7 @@ st.set_page_config(
     page_icon="💼",
     layout="wide"
 )
-
-DATA_PATH = "Data/Jobs_NYC_Postings_small.csv"
+DATA_PATH = "Jobs_NYC_Postings_small.csv"
 
 CATEGORICAL_FEATURES = [
     "Posting Type",
